@@ -1,7 +1,7 @@
 :root {
   --border-radius: 4px;
   --color-text: #333;
-  --color-primary: #7026b9;
+  --color-primary: #020202;
   --color-code-bg: #fff4db;
   --color-code: #8a6534;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
@@ -42,15 +42,21 @@ body {
   font-weight: normal;
   margin: 0;
   word-wrap: break-word;
+  background-image: url('../images/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
 }
 a {
-  background-color: transparent;
+  
   color: var(--color-primary);
   text-decoration: none;
   font-weight: 500;
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 2px;
+  background-color: black;
 }
 a:active,
 a:hover {
@@ -222,16 +228,48 @@ pre tt:before,
 pre tt:after {
   content: none;
 }
-footer{
-  background-color: black;
+.botones{
+background-image: url('../images/Fuente_Boticaria.jpg');
+  padding: 1em;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
 }
 
-.botones{
-  background-image: url('../images/embarcadero-jardin-del-principe.jpg');
-  text-align: center;
-  padding: 15em;
-}
-button{
+
+.button{
   margin: 3em;
   padding: 3em;
+  background-color: rgba(11, 11, 11, 0.9);
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.button:hover{
+  background-color: #ffc87f;
+  color:#242121; 
+
+}
+footer{
+  background-color: rgb(54, 49, 49);
+  color: #0b0a0a;
+  height: 90px; 
+
+  
+}
+a{
+  color:rgb(235, 225, 225);
+  margin: 1em; 
+}
+.layoue{
+  background-color: rgb(255, 234, 207);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footerfoto{
+  text-align: right;
 }
