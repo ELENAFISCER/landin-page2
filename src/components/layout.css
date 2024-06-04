@@ -243,11 +243,13 @@ background-image: url('../images/Fuente_Boticaria.jpg');
 
 
 .button{
+height: 3px;
   margin: 3em;
   padding: 3em;
   background-color: rgba(11, 11, 11, 0.9);
-  border-radius: 100px;
+  border-radius: 30px;
   text-decoration: none;
+  text-align: center;
 }
 
 .button:hover{
@@ -265,11 +267,38 @@ footer{
 a{
   color:rgb(235, 225, 225);
   margin: 1em; 
+
 }
 .layoue{
   background-color: rgb(255, 234, 207);
   font-family: Arial, Helvetica, sans-serif;
+
 }
 .footerfoto{
   text-align: right;
 }
+.infoinst{
+  background-color: antiquewhite;
+  padding: 2em;
+}
+.qrinicio{
+  background-color: antiquewhite;
+  padding: 2em;
+  align-items: center;
+  text-align: center;
+  margin: 2em;
+  border: 3px solid #43381b;
+  box-shadow:  5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
+}
+.qrarchivo{
+  background-color: antiquewhite;
+  padding: 2em;
+  align-items: center;
+  text-align: center;
+  margin: 2em;
+  border: 3px solid #43381b;
+  box-shadow:  5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
+}
+
