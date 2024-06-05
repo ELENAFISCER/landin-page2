@@ -37,7 +37,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: var(--color-text);
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
   font-family: var(--font-sans);
   font-weight: normal;
   margin: 0;
@@ -82,6 +82,8 @@ h1 {
   padding: 0;
   line-height: var(--line-height-dense);
   letter-spacing: -0.01em;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  
 }
 h1 > b {
   color: var(--color-primary);
@@ -236,24 +238,22 @@ background-image: url('../images/Fuente_Boticaria.jpg');
   background-size: cover;
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   justify-content: center;
-  gap: 2em;
+  gap: 1em;
 }
 
 
 .button{
-height: 3px;
-  margin: 3em;
-  padding: 3em;
-  background-color: rgba(11, 11, 11, 0.9);
-  border-radius: 30px;
+  margin: 1em;
+  padding: 1em; 
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
   text-decoration: none;
-  text-align: center;
 }
 
 .button:hover{
-  background-color: #ffc87f;
+  background-color: rgb(245, 177, 89);
   color:#242121; 
 
 }
@@ -278,11 +278,11 @@ a{
   text-align: right;
 }
 .infoinst{
-  background-color: antiquewhite;
+  background-color: rgb(230, 199, 158);
   padding: 2em;
 }
 .qrinicio{
-  background-color: antiquewhite;
+  background-color: rgb(230, 201, 162);
   padding: 2em;
   align-items: center;
   text-align: center;
@@ -292,13 +292,14 @@ a{
   border-radius: 1em;
 }
 .qrarchivo{
-  background-color: antiquewhite;
+  background-color: rgb(245, 177, 89);
   padding: 2em;
   align-items: center;
   text-align: center;
   margin: 2em;
   border: 3px solid #43381b;
   box-shadow:  5px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 1em;
+  border-radius:5em;
 }
+
 

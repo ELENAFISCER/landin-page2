@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import { StaticImage } from "gatsby-plugin-image"
 import Footer from "./footer"
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import "./layout.css"
 

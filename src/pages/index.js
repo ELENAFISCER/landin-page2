@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import * as styles from "../components/index.module.css"
 import TandemButton from "../components/button/button"
+
+
 const links = [
 ]
 const samplePageLinks = [
@@ -42,7 +44,7 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Generador Qr
+        GENERADOR QR
       </h1>
       <p className={styles.intro}>
         <b></b>{" "}
@@ -56,10 +58,10 @@ const IndexPage = () => (
       </p>
     </div>
     <div className="botones">
-    <TandemButton enlace="inicio" >Acceso empleados</TandemButton>
+    <TandemButton enlace="inicio" >ACCESO EMPLEADOS</TandemButton>
     
     <br></br>
-<TandemButton enlace="info" >Información institucional</TandemButton>
+<TandemButton enlace="info" >INFORMACIÓN INSTITUCIONAL</TandemButton>
   </div>
   </div>
   </Layout>
