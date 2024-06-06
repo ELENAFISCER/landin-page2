@@ -1,6 +1,5 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
 import { StaticImage } from "gatsby-plugin-image"
 import Footer from "./footer"
@@ -32,7 +31,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         
       </div>
-      <Footer></Footer>
+      <Footer/>
     </>
   )
 }

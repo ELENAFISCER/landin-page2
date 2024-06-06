@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -7,29 +6,7 @@ import * as styles from "../components/index.module.css"
 import TandemButton from "../components/button/button"
 
 
-const links = [
-]
-const samplePageLinks = [
-]
-const moreLinks = [
-  {
-    text: "Aviso legal",
-    url: "https://gatsbyjs.com/docs/",
-  },
-  {
-    text: "Accesibilidad",
-    url: "https://gatsbyjs.com/starters/",
-  },
-  {
-    text: "Politica de cookies",
-    url: "https://gatsbyjs.com/showcase/",
-  },
-  {
-    text: "Política de privacidad",
-    url: "https://www.gatsbyjs.com/contributing/",
-  },
-]
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
+
 const IndexPage = () => (
   <Layout>
     <div className="layoue">
@@ -46,16 +23,7 @@ const IndexPage = () => (
       <h1>
         GENERADOR QR
       </h1>
-      <p className={styles.intro}>
-        <b></b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-      </p>
+      
     </div>
     <div className="botones">
     <TandemButton enlace="inicio" >ACCESO EMPLEADOS</TandemButton>

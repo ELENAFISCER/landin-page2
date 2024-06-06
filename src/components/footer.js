@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticImage } from "gatsby-plugin-image"
 import "./layout.css"
-
+import { Link } from 'gatsby';
 
 
 const Footer = () => {
@@ -17,11 +17,14 @@ const Footer = () => {
     <a href="https://www.patrimonionacional.es/">Patrimonio Nacional</a>
 
   
+<Link to="/avisolegal"><a>Aviso Legal</a></Link>
+<Link to="/accesibilidad"><a>Accesibilidad</a></Link>
+<Link to="/politicaprivacidad"><a>Política de Privacidad</a></Link>
+<Link to="/politicacookies"><a>Política de cookies</a></Link>
 
-<a className='a' href="#">Aviso Legal</a>
-<a className='a' href="#">Accesibilidad</a>
-<a className='a' href="#">Política de Privacidad</a>
-<a className='a' href="#">Política de cookies</a>
+
+
+
 <div className='footerfoto'>
 <StaticImage
   src="../images/logo-tandem.png"
