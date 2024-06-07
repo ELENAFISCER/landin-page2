@@ -63,10 +63,10 @@ function Info(){
     </div>
       
       
-      
+       <a href="/" role='button' className='button'>Volver a inicio</a>
       </div>
 
-      <a href="/" role='button' className='button'>Volver a inicio</a>
+     
 
 </Layout>
   )

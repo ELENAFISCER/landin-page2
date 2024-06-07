@@ -241,6 +241,7 @@ background-image: url('../images/Fuente_Boticaria.jpg');
   flex-direction: column; 
   justify-content: center;
   gap: 1em;
+
 }
 
 
@@ -250,6 +251,9 @@ background-image: url('../images/Fuente_Boticaria.jpg');
   background-color: rgba(0, 0, 0, 0.9);
   border-radius: 10px;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-align:center; 
 }
 
 .button:hover{
@@ -280,6 +284,8 @@ a{
 .infoinst{
   background-color: rgb(230, 199, 158);
   padding: 2em;
+  text-align: center;
+  
 }
 .qrinicio{
   background-color: rgb(230, 201, 162);
@@ -301,5 +307,21 @@ a{
   box-shadow:  5px 5px rgba(0, 0, 0, 0.3);
   border-radius:5em;
 }
+.colored-box { 
+  background-color: #F0F8FF; 
+  border: 2px solid #ADD8E6; 
+  padding: 20px; 
+  margin: 20px; 
+  border-radius: 10px; 
+  font-family: Arial, sans-serif; 
+  color: #333; 
+}
 
+header{
+  background-color: white;
+  height: 80px;
+}
 
+.headerfoto{
+  background-color: white;
+}
