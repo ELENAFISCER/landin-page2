@@ -269,8 +269,9 @@ footer{
   
 }
 a{
-  color:rgb(249, 248, 248)!important;
+  color:rgb(0, 0, 0)!important;
   margin: 1em; 
+  border-color: #fff8f8;
 
 }
 .layoue{
@@ -325,3 +326,16 @@ header{
 .headerfoto{
   background-color: white;
 }
+.nav{
+color: black;
+background-color: rgb(124, 127, 127);
+margin: 2em
+}
+.row{
+  color:#fff8f8;
+  background-color: #595959;
+}
+.black{
+  color:#c40707; 
+}
+
