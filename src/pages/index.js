@@ -26,10 +26,10 @@ const IndexPage = () => (
       
     </div>
     <div className="botones">
-    <TandemButton enlace="/crear-qr" >ACCESO EMPLEADOS</TandemButton>
+    <TandemButton enlace="/iniciosesion" >ACCESO EMPLEADOS</TandemButton>
     
     <br></br>
-<TandemButton enlace="info" >INFORMACIÓN INSTITUCIONAL</TandemButton>
+<TandemButton enlace="/info" >INFORMACIÓN INSTITUCIONAL</TandemButton>
 
   </div>
   </div>

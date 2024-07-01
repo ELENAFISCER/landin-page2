@@ -262,14 +262,14 @@ background-image: url('../images/Fuente_Boticaria.jpg');
 
 }
 footer{
-  background-color: rgb(54, 49, 49);
-  color: #0b0a0a;
+  background-color: rgb(19, 18, 18);
+  color: #0b0b0b;
   height: 90px; 
 
   
 }
 a{
-  color:rgb(0, 0, 0)!important;
+  color:rgb(230, 224, 224)!important;
   margin: 1em; 
   border-color: #fff8f8;
 
@@ -335,7 +335,5 @@ margin: 2em
   color:#fff8f8;
   background-color: #595959;
 }
-.black{
-  color:#c40707; 
-}
+
 
